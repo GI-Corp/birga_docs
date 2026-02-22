@@ -1,0 +1,5 @@
+* [Home](/)
+* [Introduction](/autorization/index)
+    * [Create a token](/autorization/create-token)
+    * [Get a token](/autorization/get-token)
+    * [Refresh a token](/autorization/refresh-token)

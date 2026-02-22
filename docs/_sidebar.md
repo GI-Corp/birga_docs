@@ -1,0 +1,8 @@
+* [Home](/)
+* [Getting started](getting-started/index)
+    * [Account](/getting-started/account)
+    * [Authorization](/getting-started/auth)
+    * [FAQ](/getting-started/faq)
+* [Autorization](autorization/index)
+* [Gateway API](gateway-api/index)
+* [Changelog](changelog)
