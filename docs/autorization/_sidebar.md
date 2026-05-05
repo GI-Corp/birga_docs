@@ -1,5 +1,7 @@
 * [Home](/)
-* [Introduction](/autorization/index)
-    * [Create a token](/autorization/create-token)
-    * [Get a token](/autorization/get-token)
-    * [Refresh a token](/autorization/refresh-token)
+* Authentication
+    * [Overview](/autorization/index)
+    * [Get Token](/autorization/get-token)
+    * [Refresh Token](/autorization/refresh-token)
+    * [Validate Token](/autorization/create-token)
+    * [Logout](/autorization/logout)
