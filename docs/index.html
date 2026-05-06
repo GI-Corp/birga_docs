@@ -22,7 +22,12 @@
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 2,
-      themeColor: '#46A1AD'
+      themeColor: '#46A1AD',
+      alias: {
+        '/ru/.*/_sidebar.md': '/ru/_sidebar.md',
+        '/ru/_navbar.md': '/_navbar.md',
+        '/(?!ru/).*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>

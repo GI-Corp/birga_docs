@@ -1,3 +1,5 @@
 * [Home](/)
-* [Introduction](/gateway-api/menu/index)
-    * [Get menu](/gateway-api/menu/get-menu)
+* Gateway API
+    * [Overview](/gateway-api/index)
+    * Menu
+        * [Get Menu](/gateway-api/menu/get-menu)

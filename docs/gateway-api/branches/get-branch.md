@@ -1,10 +1,10 @@
-# Get Restaurant
+# Get Branch
 
-Returns details for a specific restaurant by its ID.
+Returns details for a specific branch by its ID.
 
 ## Request
 
-**`GET`** `/api/v1/restaurants/get-restaurant/{restaurantId}`
+**`GET`** `/api/v1/branches/get-branch/{branchId}`
 
 ### Headers
 
@@ -17,7 +17,7 @@ Returns details for a specific restaurant by its ID.
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| `restaurantId` | uuid | Yes | Restaurant identifier |
+| `branchId` | uuid | Yes | Branch identifier |
 
 ### Query Parameters
 
@@ -32,9 +32,9 @@ Returns details for a specific restaurant by its ID.
 ```json
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "restaurantId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "name": "My Restaurant",
-  "externalId": "iiko-org-123",
+  "restaurantId": "9b1c3e70-1234-4abc-b3fc-2c963f66afa6",
+  "name": "Downtown Branch",
+  "externalId": "iiko-branch-001",
   "posSystemName": "iiko",
   "posSystemId": "pos-001",
   "updatedAt": "2024-01-15T10:30:00Z"
@@ -43,9 +43,9 @@ Returns details for a specific restaurant by its ID.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | uuid | Birga identifier |
+| `id` | uuid | Branch identifier |
 | `restaurantId` | uuid | Parent restaurant identifier |
-| `name` | string | Restaurant name |
+| `name` | string | Branch name |
 | `externalId` | string | ID in the connected POS system |
 | `posSystemName` | string | Connected POS system (e.g., `iiko`, `rkeeper`, `poster`) |
 | `posSystemId` | string | POS system instance identifier |
@@ -53,15 +53,15 @@ Returns details for a specific restaurant by its ID.
 
 ### 204 No Content
 
-No restaurant found for the given ID.
+No branch found for the given ID.
 
 ### 400 Bad Request
 
 ```json
 {
   "code": "INVALID_PARAMETER",
-  "path": "/api/v1/restaurants/get-restaurant/{restaurantId}",
-  "message": "restaurantId must be a valid UUID",
+  "path": "/api/v1/branches/get-branch/{branchId}",
+  "message": "branchId must be a valid UUID",
   "details": [],
   "timestamp": "2024-01-15T10:30:00Z"
 }
@@ -72,7 +72,7 @@ No restaurant found for the given ID.
 ```json
 {
   "code": "INTERNAL_ERROR",
-  "path": "/api/v1/restaurants/get-restaurant/{restaurantId}",
+  "path": "/api/v1/branches/get-branch/{branchId}",
   "message": "Internal server error",
   "details": [],
   "timestamp": "2024-01-15T10:30:00Z"
@@ -82,7 +82,7 @@ No restaurant found for the given ID.
 ## Example
 
 ```bash
-curl -X GET "https://api.birga-gateway.uz/api/v1/restaurants/get-restaurant/3fa85f64-5717-4562-b3fc-2c963f66afa6" \
+curl -X GET "https://api.birga-gateway.uz/api/v1/branches/get-branch/3fa85f64-5717-4562-b3fc-2c963f66afa6" \
   -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9..." \
-  -H "X-Request-Id: req-010"
+  -H "X-Request-Id: req-015"
 ```
