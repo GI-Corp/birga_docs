@@ -91,4 +91,4 @@ Base path: `/api/v1`
 
 - [FAQ](/getting-started/faq) — Common questions about integration
 - [Changelog](changelog) — Latest updates and releases
-- Contact: [gicorp.work@gmail.com](mailto:gicorp.work@gmail.com) | Telegram: [@islomcodes](https://t.me/islomcodes)
+- Contact: [support@birga-gateway.uz](mailto:support@birga-gateway.uz) | Telegram: [@birga_support](https://t.me/birga_support)

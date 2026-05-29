@@ -86,4 +86,4 @@ API использует Bearer JWT токены. Получите токен п
 ## Нужна помощь?
 
 - [Changelog](/changelog)
-- Контакт: [gicorp.work@gmail.com](mailto:gicorp.work@gmail.com) | Telegram: [@islomcodes](https://t.me/islomcodes)
+- Контакт: [support@birga-gateway.uz](mailto:support@birga-gateway.uz) | Telegram: [@birga_support](https://t.me/birga_support)

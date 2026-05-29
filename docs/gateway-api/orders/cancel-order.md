@@ -20,7 +20,7 @@ Cancels an existing order in the connected POS system.
 {}
 ```
 
-> The request body is currently empty. The order to cancel is identified by the session context. Contact [support](mailto:gicorp.work@gmail.com) for details on order cancellation parameters.
+> The request body is currently empty. The order to cancel is identified by the session context. Contact [support](mailto:support@birga-gateway.uz) for details on order cancellation parameters.
 
 ## Response
 
