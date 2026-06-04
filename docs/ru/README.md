@@ -2,7 +2,7 @@
 
 Birga — единый интеграционный шлюз, подключающий ваш бизнес к нескольким POS-системам. Один API, одна панель управления, без привязки к конкретному поставщику.
 
-<img src="/img/birga.png" alt="Birga Gateway API" style="max-width: min(820px, 100%); height: auto; display: block;">
+<img src="/img/birga-light.png" alt="Birga Gateway API" style="max-width: min(820px, 100%); height: auto; display: block;">
 
 ## Что такое Birga?
 

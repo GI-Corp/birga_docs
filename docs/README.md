@@ -2,7 +2,7 @@
 
 Birga is the single integration gateway that connects your business to multiple point-of-sale systems. One API, one dashboard, no vendor lock-in.
 
-<img src="img/birga.png" alt="Birga Gateway API" style="max-width: min(820px, 100%); height: auto; display: block;">
+<img src="img/birga-light.png" alt="Birga Gateway API" style="max-width: min(820px, 100%); height: auto; display: block;">
 
 ## What is Birga?
 
